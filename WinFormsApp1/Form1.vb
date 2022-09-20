@@ -19,7 +19,6 @@ Public Class Form1
         Dim oneRow(depth) As Integer
         Dim Row As ListViewItem
 
-
         With ListView1
             .Clear()
             .View = View.Details
@@ -71,10 +70,6 @@ Public Class Form1
                     tableNumStr(i) = tableNumStr(i) + CStr(0) + "/"
                 End If
             Next
-            'Row3 = ListView3.Items.Add(tableNum(i, 0))
-            'For z As Integer = 1 To depth
-            '    Row3.SubItems.Add(tableNum(i, z))
-            'Next
         Next
 
         Label3.Text = "Творится магия. 1 из 3"
