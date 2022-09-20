@@ -18,8 +18,7 @@ Public Class Form1
         Dim cell As String
         Dim oneRow(depth) As Integer
         Dim Row As ListViewItem
-        Dim Row2 As ListViewItem
-        Dim Row3 As ListViewItem
+
 
         With ListView1
             .Clear()
